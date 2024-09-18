@@ -1,0 +1,22 @@
+{
+  "name": "memeteca-server",
+  "version": "1.0.0",
+  "description": "Api Node.js and express backend with SQL database",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --watchAll --no-cache",
+    "dev": "nodemon --watch app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.5",
+    "supertest": "^7.0.0"
+  },
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}
